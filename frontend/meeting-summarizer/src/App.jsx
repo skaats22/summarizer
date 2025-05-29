@@ -1,6 +1,5 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import { useState, useEffect } from "react";
+import { Routes, Route, useNavigate } from "react-router";
 import "./App.css";
 
 const BASE_URL = "http://localhost:8000/api";
